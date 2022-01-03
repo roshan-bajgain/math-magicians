@@ -6,10 +6,6 @@
 - Javascript
 - react
 
-## Live Demo
-
-[View Live Demo](https://roshan-bajgain.github.io/math-magicians/)
-
 ## Getting Started
 
 To get a local copy up and running follow these steps.
