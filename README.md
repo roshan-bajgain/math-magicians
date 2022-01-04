@@ -1,7 +1,7 @@
 # Math-Magicians
 
 ## Built With
-
+- Html
 - CSS
 - Javascript
 - react
@@ -12,10 +12,11 @@ To get a local copy up and running follow these steps.
 
 1. Clone the repo
    ```
-   git clone git@github.com:roshan-bajgain/math-magicians.git
+   git clone git@github.com:roshan-bajgain/math-magicians.
    ```
-
-3. Start the project using `npm start`
+2. Go to project directory `cd math-magician`
+3. Install project requirements `npm install`
+4. Start the project using `npm start`
 
 
 ### Prerequisites
