@@ -1,9 +1,9 @@
 import react from 'react';
-import calculator from './component/calculator';
+import Calculator from './component/calculator';
 
 class App extends react.Component {
   render() {
-    return <calculator />;
+    return <Calculator />;
   }
 }
 
