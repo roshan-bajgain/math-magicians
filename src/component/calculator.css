@@ -23,3 +23,14 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 0.1rem;
 }
+
+.button {
+    border: none;
+    height: 2rem;
+    width: 5em;
+    font-size: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1em;
+    box-sizing: content-box;
+}
