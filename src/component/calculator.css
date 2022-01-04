@@ -1,6 +1,25 @@
 .container {
     width: fit-content;
-    font-size: 1 rem;
+    font-size: 1rem;
     margin: 0 auto;
     margin-top: 10vh;
+}
+
+.screen {
+    background-color: rgb(128, 128, 128);
+    text-align: right;
+    height: 2rem;
+    padding: 0.4em;
+    font-size: 1.4em;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    background-color: hsl(0, 0%, 85%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.1rem;
 }
