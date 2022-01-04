@@ -6,7 +6,7 @@
 }
 
 .screen {
-  background-color: rgb(133,134,147);
+  background-color: rgb(133, 134, 147);
   text-align: right;
   height: 2rem;
   padding: 0.4em;
@@ -18,7 +18,7 @@
 }
 
 .buttons {
-  background-color: rgb(224,224,224);
+  background-color: rgb(224, 224, 224);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.1rem;
