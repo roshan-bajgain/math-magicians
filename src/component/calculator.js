@@ -6,7 +6,9 @@ import calculate from '../logic/calculator';
 const Calculator = () => {
   const [state, NewState] = useState({});
 
-  
+  const handleClick = (e) => {
+    NewState(calculate(state, e.target.textContent));
+  };
   const { next, total } = state;
   return (
     <div className="container">
