@@ -40,4 +40,8 @@ class Calculator extends React.Component {
     );
   }
 }
+Calculator.PropTypes = {
+  updateDetails: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired
+}
 export default Calculator;
