@@ -5,7 +5,7 @@ class App extends react.Component {
   render() {
     return (
       <div>
-      <Calculator />
+        <Calculator />
       </div>
     );
   }
