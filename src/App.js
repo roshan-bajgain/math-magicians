@@ -1,11 +1,18 @@
 import react from 'react';
 import Calculator from './component/calculator';
-import calculate from './logic/calculator';
+import calculator from './logic/calculator';
 
 class App extends react.Component {
-  render() {
-    return <Calculator />;
-  }
+ constructor(props){
+   super(props);
+   this.state = {total: null, next: null, operate:null};
+   this.updateDetails = this.updateDetails.bind(this);
+ }
+ updateDetails(e) {
+   const newObj = calculate(this.state, e.target.textContent)
+   this.setState(newObj);
+ }
+ 
 }
 
 export default App;
