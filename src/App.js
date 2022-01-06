@@ -3,7 +3,11 @@ import Calculator from './component/calculator';
 
 class App extends react.Component {
   render() {
-    return <Calculator />;
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
   }
 }
 
