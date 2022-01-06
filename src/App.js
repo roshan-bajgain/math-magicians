@@ -21,6 +21,11 @@ class App extends react.Component {
    } else if (next) {
      result= `${next} ${op || ''}`;
    }
+   return (
+     <Calculator 
+      updateDetails = {this.updateDetails}
+      value = {result} />
+   );
  }
 }
 
