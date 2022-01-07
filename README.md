@@ -1,4 +1,16 @@
 # Math-Magicians
+  This **Single Page App** _(SPA)_  was built with ReactJS. It has three pages:
+- Home Page
+- Calculator Page
+- Quotes Page
+
+These pages will display when their links in the navigation bar is clicked without the browser loading thanks to `React Router Library`.
+
+On the Calculator Page, the user can perform `mathematical operations`;
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
 ## Built With
 - Html
