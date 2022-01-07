@@ -6,6 +6,10 @@
 - Javascript
 - react
 
+## Live Demo
+
+[View Live Demo](https://hardcore-montalcini-66e535.netlify.app)
+
 ## Getting Started
 
 To get a local copy up and running follow these steps.
