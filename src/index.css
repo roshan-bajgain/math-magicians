@@ -6,3 +6,20 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.quotes-paragraph {
+  padding: 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
