@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   <header>
     <h1>Math Magicians</h1>
     <nav>
       <ul>
-        <link to="/">Home</link>
-        <link to="/calculator">Calculator</link>
-        <link to="/quote">Quote</link>
+        <Link to="/">Home</Link>
+        <Link to="/calculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
       </ul>
     </nav>
   </header>;

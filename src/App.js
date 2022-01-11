@@ -8,17 +8,17 @@ class App extends react.Component {
     return (
       <div>
         <Header />
-        <switch>
-          <Route path = '/'>
-            <Home/>
+        <Switch>
+          <Route path="/">
+            {/* <Home /> */}
           </Route>
-          <Route path = '/calculator'>
-            <Calculator/>
+          <Route path="/calculator">
+            {/* <CalculatorPage /> */}
           </Route>
-          <Route path = '/quote'>
-            <Quote/>
+          <Route path="/quote">
+            {/* <Quote /> */}
           </Route>
-        </switch>
+        </Switch>
         <Calculator />
       </div>
     );
