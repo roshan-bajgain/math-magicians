@@ -5,10 +5,15 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: papayawhip;
 }
 
 .quotes-paragraph {
   padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 90px;
 }
 
 .link {
@@ -22,4 +27,27 @@ a {
   padding: 10px;
   font-size: 25px;
   font-weight: bold;
+}
+
+.heading {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  padding-inline: 1rem;
+}
+
+.home h2 {
+  margin-block: 2rem;
+}
+
+.home p {
+  padding-block: 2rem;
 }
