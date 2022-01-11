@@ -3,7 +3,19 @@
   font-size: 1rem;
   margin: 0 auto;
   margin-top: 10vh;
-  margin-right: 220px;
+  /* margin-right: 220px; */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+}
+
+.header {
+  padding-left: 20px;
+  font-size: 25px;
 }
 
 .screen {
