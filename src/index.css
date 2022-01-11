@@ -49,5 +49,6 @@ a {
 }
 
 .home p {
-  padding-block: 2rem;
+  padding-block: 1.5rem;
+  text-align: justify;
 }
