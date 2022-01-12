@@ -1,10 +1,12 @@
 // Test for component/calculate.js
 import React from 'react';
-import { shallow } from 'enzyme';
-import { Calculator } from './calculator';
+import { render, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import Calculator from './calculator';
 
 it('renders without crashing', () => {
-  shallow(<Calculator />);
-  expect(shallow(<Calculator />)).toMatchSnapshot();
-  expect(shallow(<Calculator />).find('div').length).toBe(1);
+  render(<Calculator />);
+  expect((<Calculator />)).toBeInTheDocument();
 });
+
+
