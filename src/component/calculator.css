@@ -1,8 +1,20 @@
 .container {
-  width: 200px;
+  width: 350px;
   font-size: 1rem;
   margin: 0 auto;
   margin-top: 10vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+}
+
+.header {
+  padding-left: 20px;
+  font-size: 25px;
 }
 
 .screen {
@@ -22,6 +34,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.1rem;
+  height: 200px;
 }
 
 .button {
