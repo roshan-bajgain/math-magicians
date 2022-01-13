@@ -3,11 +3,12 @@ import './calculator.css';
 import calculate from '../logic/calculator';
 
 const Calculator = () => {
-  const [state, NewState] = useState({});
+  const [state, NewState] = useState({next: null, total: null});
 
   const handleClick = (e) => {
     NewState(calculate(state, e.target.textContent));
   };
+
   const { next, total } = state;
   return (
     <div className="wrapper">
@@ -17,25 +18,25 @@ const Calculator = () => {
           {next || total || 0 }
         </div>
         <div className="buttons">
-          <button onClick={handleClick} type="button">Ac</button>
-          <button onClick={handleClick} type="button">+/-</button>
-          <button onClick={handleClick} type="button">%</button>
-          <button onClick={handleClick} className="orange" type="button">&divide;</button>
-          <button onClick={handleClick} type="button">7</button>
-          <button onClick={handleClick} type="button">8</button>
-          <button onClick={handleClick} type="button">9</button>
-          <button onClick={handleClick} className="orange" type="button">&times;</button>
-          <button onClick={handleClick} type="button">4</button>
-          <button onClick={handleClick} type="button">5</button>
-          <button onClick={handleClick} type="button">6</button>
-          <button onClick={handleClick} className="orange" type="button">&minus;</button>
-          <button onClick={handleClick} type="button">1</button>
-          <button onClick={handleClick} type="button">2</button>
-          <button onClick={handleClick} type="button">3</button>
-          <button onClick={handleClick} className="orange" type="button">+</button>
-          <button onClick={handleClick} className="double" type="button">0</button>
-          <button onClick={handleClick} type="button">.</button>
-          <button onClick={handleClick} className="orange" type="button">=</button>
+          <button onClick={handleClick} type="button" name="Ac">Ac</button>
+          <button onClick={handleClick} type="button" name="+/-">+/-</button>
+          <button onClick={handleClick} type="button" name="%">%</button>
+          <button onClick={handleClick} className="orange" type="button" name="&divide;">&divide;</button>
+          <button onClick={handleClick} type="button" name="7">7</button>
+          <button onClick={handleClick} type="button" name="8">8</button>
+          <button onClick={handleClick} type="button" name="9">9</button>
+          <button onClick={handleClick} className="orange" type="button" name="&times;">&times;</button>
+          <button onClick={handleClick} type="button" name="4">4</button>
+          <button onClick={handleClick} type="button" name="5">5</button>
+          <button onClick={handleClick} type="button" name="6">6</button>
+          <button onClick={handleClick} className="orange" type="button" name="&minus;">&minus;</button>
+          <button onClick={handleClick} type="button" name="1">1</button>
+          <button onClick={handleClick} type="button" name="2">2</button>
+          <button onClick={handleClick} type="button" name="3">3</button>
+          <button onClick={handleClick} className="orange" type="button" name="+">+</button>
+          <button onClick={handleClick} className="double" type="button" name="0">0</button>
+          <button onClick={handleClick} type="button" name=".">.</button>
+          <button onClick={handleClick} className="orange" type="button" name="=">=</button>
         </div>
       </div>
     </div>
