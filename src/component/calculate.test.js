@@ -1,7 +1,8 @@
 // Test for component/calculate.js
 import React from 'react';
-import { render, screen, act, fireEvent } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
+import {
+  render, screen, fireEvent,
+} from '@testing-library/react';
 import Calculator from './calculator';
 
 describe('Calculator', () => {

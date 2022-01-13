@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Calculator renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="wrapper"
@@ -15,6 +15,7 @@ exports[`renders correctly 1`] = `
     >
       <div
         class="screen"
+        role="none"
       >
         0
       </div>

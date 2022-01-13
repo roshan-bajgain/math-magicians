@@ -3,7 +3,7 @@ import './calculator.css';
 import calculate from '../logic/calculator';
 
 const Calculator = () => {
-  const [state, NewState] = useState({next: null, total: null});
+  const [state, NewState] = useState({ next: null, total: null });
 
   const handleClick = (e) => {
     NewState(calculate(state, e.target.textContent));

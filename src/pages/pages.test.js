@@ -5,14 +5,11 @@ import Home from './Home';
 import Quote from './Quote';
 
 it('renders correctly', () => {
-    const { asFragment } = render(<Home />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-  
-  it('renders correctly', () => {
-    const { asFragment } = render(<Quote />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-  
+  const { asFragment } = render(<Home />);
+  expect(asFragment()).toMatchSnapshot();
+});
 
-
+it('renders correctly', () => {
+  const { asFragment } = render(<Quote />);
+  expect(asFragment()).toMatchSnapshot();
+});
