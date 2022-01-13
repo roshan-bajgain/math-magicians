@@ -14,7 +14,7 @@ const Calculator = () => {
     <div className="wrapper">
       <h2 className="header">Lets Do Some Math! </h2>
       <div className="container">
-        <div className="screen">
+        <div className="screen" role="none">
           {next || total || 0 }
         </div>
         <div className="buttons">
