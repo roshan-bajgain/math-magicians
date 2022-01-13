@@ -4,10 +4,15 @@ import { render } from '@testing-library/react';
 import Home from './Home';
 import Quote from './Quote';
 
-const { homeFragment } = render(<Home />);
-const { quoteFragment } = render(<Quote />);
-
-expect(homeFragment()).toMatchSnapshot();
-expect(quoteFragment()).toMatchSnapshot();
+it('renders correctly', () => {
+    const { asFragment } = render(<Home />);
+    expect(asFragment()).toMatchSnapshot();
+  });
+  
+  it('renders correctly', () => {
+    const { asFragment } = render(<Quote />);
+    expect(asFragment()).toMatchSnapshot();
+  });
+  
 
 
