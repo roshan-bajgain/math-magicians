@@ -3,7 +3,7 @@ const Home = () => (
     <h2>Welcome to my page</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Unde rem sit quisquam commodi accusantium itaque
+      Unde rem sit quisquam commodi accusantium all the find it
       quam praesentium quas, libero cumque quasi inventore molestias
       tenetur laboriosam possimus blanditiis amet corporis eveniet
       odit? Vitae veniam reiciendis consectetur ipsa error perferendis
