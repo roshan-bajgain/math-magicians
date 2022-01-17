@@ -20,7 +20,7 @@ On the Calculator Page, the user can perform `mathematical operations`;
 
 ## Live Demo
 
-[View Live Demo](https://hardcore-montalcini-66e535.netlify.app)
+[View Live Demo](https://naughty-kirch-ffdeaa.netlify.app)
 
 ## Getting Started
 
