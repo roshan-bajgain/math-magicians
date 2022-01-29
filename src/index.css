@@ -19,7 +19,7 @@ body {
 .link {
   display: flex;
   justify-content: flex-end;
-  padding: 21px;
+  padding: 20px;
 }
 
 a {
